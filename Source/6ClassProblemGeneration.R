@@ -1,18 +1,18 @@
 # #TS creation script for performance testing of Distributed FastShapelet Transform algorithm:
 # 6Class
 # Selection of datasets and binding in a single problem, where the class label refers to each original dataset
-datasets=list(list("/home/fjbaldan/Downloads/UCR_TS_Archive_2015/ECG5000/ECG5000_TRAIN",
-                   "/home/fjbaldan/Downloads/UCR_TS_Archive_2015/ECG5000/ECG5000_TEST"),
-              list("/home/fjbaldan/Downloads/UCR_TS_Archive_2015/PhalangesOutlinesCorrect/PhalangesOutlinesCorrect_TRAIN",
-                   "/home/fjbaldan/Downloads/UCR_TS_Archive_2015/PhalangesOutlinesCorrect/PhalangesOutlinesCorrect_TEST"),
-              list("/home/fjbaldan/Downloads/UCR_TS_Archive_2015/Two_Patterns/Two_Patterns_TRAIN",
-                   "/home/fjbaldan/Downloads/UCR_TS_Archive_2015/Two_Patterns/Two_Patterns_TEST"),
-              list("/home/fjbaldan/Downloads/UCR_TS_Archive_2015/Gun_Point/Gun_Point_TRAIN",
-                   "/home/fjbaldan/Downloads/UCR_TS_Archive_2015/Gun_Point/Gun_Point_TEST"),
-              list("/home/fjbaldan/Downloads/UCR_TS_Archive_2015/wafer/wafer_TRAIN",
-                   "/home/fjbaldan/Downloads/UCR_TS_Archive_2015/wafer/wafer_TEST"),
-              list("/home/fjbaldan/Downloads/UCR_TS_Archive_2015/ElectricDevices/ElectricDevices_TRAIN",
-                   "/home/fjbaldan/Downloads/UCR_TS_Archive_2015/ElectricDevices/ElectricDevices_TEST"))
+datasets=list(list("UCR_TS_Archive_2015/ECG5000/ECG5000_TRAIN",
+                   "UCR_TS_Archive_2015/ECG5000/ECG5000_TEST"),
+              list("UCR_TS_Archive_2015/PhalangesOutlinesCorrect/PhalangesOutlinesCorrect_TRAIN",
+                   "UCR_TS_Archive_2015/PhalangesOutlinesCorrect/PhalangesOutlinesCorrect_TEST"),
+              list("UCR_TS_Archive_2015/Two_Patterns/Two_Patterns_TRAIN",
+                   "UCR_TS_Archive_2015/Two_Patterns/Two_Patterns_TEST"),
+              list("UCR_TS_Archive_2015/Gun_Point/Gun_Point_TRAIN",
+                   "UCR_TS_Archive_2015/Gun_Point/Gun_Point_TEST"),
+              list("UCR_TS_Archive_2015/wafer/wafer_TRAIN",
+                   "UCR_TS_Archive_2015/wafer/wafer_TEST"),
+              list("UCR_TS_Archive_2015/ElectricDevices/ElectricDevices_TRAIN",
+                   "UCR_TS_Archive_2015/ElectricDevices/ElectricDevices_TEST"))
 
 max_len=150
 
